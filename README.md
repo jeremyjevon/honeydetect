@@ -7,7 +7,7 @@ A simple weekend project that detects honeypots in a very obvious and intrusive 
 
 ## Requirements
 ```
-Golang ;) 
+Golang
 ```
 Get it here [https://golang.org/doc/install](https://golang.org/doc/install)
 
@@ -16,10 +16,17 @@ Get it here [https://golang.org/doc/install](https://golang.org/doc/install)
 On Linux & MacOS
 
 ``` bash
+sudo apt install golang-go
 git clone https://github.com/StefanGrimminck/honeydetect.git
 cd honeydetect
 go build
+go get <repository requirements>
+go build
 ```
+
+Edit ```config.toml``` to change honeydetect configurations
+
+Edit ```addresses.txt``` to specify the IP addresses of the target
 
 ## Usage
 
