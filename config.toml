@@ -1,0 +1,6 @@
+# Configuration
+inputFile      = "addresses.txt"
+depth          = 2
+timeout        = "30s"
+username       = "root"
+passwordLength = 60
