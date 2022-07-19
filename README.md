@@ -28,6 +28,8 @@ Edit ```config.toml``` to change honeydetect configurations
 
 Edit ```addresses.txt``` to specify the IP addresses of the target
 
+Run honeydetect with the command ```./honeydetect```
+
 ## Usage
 
 Create a `config.toml` file in the root of the honeydetect directory with the following configuration
@@ -57,10 +59,3 @@ passwordLength = 60
 10.0.10.1
 ::1
 ```
-
-
-After creating a configuration and supplying an input file you'll be able to start finding honeypots by running the executable you've built.
-```
-./honeydetect
-```
-
