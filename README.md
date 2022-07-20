@@ -24,6 +24,15 @@ go get <repository requirements>
 go build
 ```
 
+Repository Requirements
+
+```
+go get github.com/BurntSushi/toml
+go get github.com/fatih/color
+go get github.com/patrickmn/go-cache
+go get golang.org/x/crypto/ssh
+```
+
 Edit ```config.toml``` to change honeydetect configurations
 
 Edit ```addresses.txt``` to specify the IP addresses of the target
